@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body{
+  background-color: rgb(138, 134, 134);
+  /* color: rgb(206, 169, 4); */
+  text-align: center;
+  font-size: 30px;
+}
+.flexB{
+  @apply flex justify-between items-center
+}
+.flexC{
+  @apply flex justify-center items-center
+}
+.btn1{
+  @apply text-white   bg-black   hover:bg-red-500 duration-300 cursor-pointer rounded-full
+      px-4
+}
+
+.show{
+display:  block;
+}
+.hide{
+display:  none;
+}
+
+ .transModal {
+  transform: translate(-25px, -25px);
+}
